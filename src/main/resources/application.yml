@@ -10,11 +10,11 @@ spring:
       username: root
       password: 133791
       type: com.alibaba.druid.pool.DruidDataSource
-    redis:
-        host: 192.168.142.128
-        port: 6379
-        password: 133791
-        database: 0
+  redis:
+    host: 192.168.142.128
+    port: 6379
+    password: 133791
+    database: 0
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
@@ -24,4 +24,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-  path: D:\reggie-file\
+  path: D:\Takeout-file\
